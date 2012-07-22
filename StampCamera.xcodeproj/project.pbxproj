@@ -16,6 +16,11 @@
 		0E1D170A15BB3C4900A92F8C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D170815BB3C4900A92F8C /* MainStoryboard_iPhone.storyboard */; };
 		0E1D170D15BB3C4900A92F8C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D170B15BB3C4900A92F8C /* MainStoryboard_iPad.storyboard */; };
 		0E1D171015BB3C4900A92F8C /* stampCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D170F15BB3C4900A92F8C /* stampCameraViewController.m */; };
+		0E1D172715BB5D4B00A92F8C /* camera114.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D172615BB5D4B00A92F8C /* camera114.png */; };
+		0E1D172A15BB5D4F00A92F8C /* camera57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D172915BB5D4F00A92F8C /* camera57.png */; };
+		0E1D172C15BB9A3100A92F8C /* megane.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D172B15BB9A3100A92F8C /* megane.png */; };
+		0E1D172E15BB9B5A00A92F8C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1D172D15BB9B5A00A92F8C /* CoreImage.framework */; };
+		0E1D173215BBA02B00A92F8C /* megane2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D173115BBA02B00A92F8C /* megane2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +28,21 @@
 		0E1D16F615BB3C4900A92F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0E1D16F815BB3C4900A92F8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0E1D16FA15BB3C4900A92F8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0E1D16FE15BB3C4900A92F8C /* StampCamera-Info.plist */ = {isa = PBXFileReference; path = "StampCamera-Info.plist"; sourceTree = "<group>"; };
+		0E1D16FE15BB3C4900A92F8C /* StampCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StampCamera-Info.plist"; sourceTree = "<group>"; };
 		0E1D170015BB3C4900A92F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E1D170215BB3C4900A92F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0E1D170415BB3C4900A92F8C /* StampCamera-Prefix.pch */ = {isa = PBXFileReference; path = "StampCamera-Prefix.pch"; sourceTree = "<group>"; };
-		0E1D170515BB3C4900A92F8C /* stampCameraAppDelegate.h */ = {isa = PBXFileReference; path = stampCameraAppDelegate.h; sourceTree = "<group>"; };
+		0E1D170415BB3C4900A92F8C /* StampCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StampCamera-Prefix.pch"; sourceTree = "<group>"; };
+		0E1D170515BB3C4900A92F8C /* stampCameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stampCameraAppDelegate.h; sourceTree = "<group>"; };
 		0E1D170615BB3C4900A92F8C /* stampCameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stampCameraAppDelegate.m; sourceTree = "<group>"; };
 		0E1D170915BB3C4900A92F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		0E1D170C15BB3C4900A92F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		0E1D170E15BB3C4900A92F8C /* stampCameraViewController.h */ = {isa = PBXFileReference; path = stampCameraViewController.h; sourceTree = "<group>"; };
+		0E1D170E15BB3C4900A92F8C /* stampCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stampCameraViewController.h; sourceTree = "<group>"; };
 		0E1D170F15BB3C4900A92F8C /* stampCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stampCameraViewController.m; sourceTree = "<group>"; };
+		0E1D172615BB5D4B00A92F8C /* camera114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera114.png; sourceTree = "<group>"; };
+		0E1D172915BB5D4F00A92F8C /* camera57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera57.png; sourceTree = "<group>"; };
+		0E1D172B15BB9A3100A92F8C /* megane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megane.png; sourceTree = "<group>"; };
+		0E1D172D15BB9B5A00A92F8C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0E1D173115BBA02B00A92F8C /* megane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megane2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1D172E15BB9B5A00A92F8C /* CoreImage.framework in Frameworks */,
 				0E1D16F715BB3C4900A92F8C /* UIKit.framework in Frameworks */,
 				0E1D16F915BB3C4900A92F8C /* Foundation.framework in Frameworks */,
 				0E1D16FB15BB3C4900A92F8C /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +63,9 @@
 		0E1D16E715BB3C4900A92F8C = {
 			isa = PBXGroup;
 			children = (
+				0E1D172D15BB9B5A00A92F8C /* CoreImage.framework */,
+				0E1D172915BB5D4F00A92F8C /* camera57.png */,
+				0E1D172615BB5D4B00A92F8C /* camera114.png */,
 				0E1D16FC15BB3C4900A92F8C /* StampCamera */,
 				0E1D16F515BB3C4900A92F8C /* Frameworks */,
 				0E1D16F315BB3C4900A92F8C /* Products */,
@@ -93,6 +107,8 @@
 		0E1D16FD15BB3C4900A92F8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E1D173115BBA02B00A92F8C /* megane2.png */,
+				0E1D172B15BB9A3100A92F8C /* megane.png */,
 				0E1D16FE15BB3C4900A92F8C /* StampCamera-Info.plist */,
 				0E1D16FF15BB3C4900A92F8C /* InfoPlist.strings */,
 				0E1D170215BB3C4900A92F8C /* main.m */,
@@ -155,6 +171,10 @@
 				0E1D170115BB3C4900A92F8C /* InfoPlist.strings in Resources */,
 				0E1D170A15BB3C4900A92F8C /* MainStoryboard_iPhone.storyboard in Resources */,
 				0E1D170D15BB3C4900A92F8C /* MainStoryboard_iPad.storyboard in Resources */,
+				0E1D172715BB5D4B00A92F8C /* camera114.png in Resources */,
+				0E1D172A15BB5D4F00A92F8C /* camera57.png in Resources */,
+				0E1D172C15BB9A3100A92F8C /* megane.png in Resources */,
+				0E1D173215BBA02B00A92F8C /* megane2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +309,7 @@
 				0E1D171515BB3C4900A92F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
