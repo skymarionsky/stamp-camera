@@ -21,6 +21,7 @@
 		0E1D172C15BB9A3100A92F8C /* megane.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D172B15BB9A3100A92F8C /* megane.png */; };
 		0E1D172E15BB9B5A00A92F8C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1D172D15BB9B5A00A92F8C /* CoreImage.framework */; };
 		0E1D173215BBA02B00A92F8C /* megane2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D173115BBA02B00A92F8C /* megane2.png */; };
+		0E4E14D616DB8E1B00BA27C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E4E14D516DB8E1B00BA27C2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		0E1D172B15BB9A3100A92F8C /* megane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megane.png; sourceTree = "<group>"; };
 		0E1D172D15BB9B5A00A92F8C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		0E1D173115BBA02B00A92F8C /* megane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megane2.png; sourceTree = "<group>"; };
+		0E4E14D516DB8E1B00BA27C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		0E1D16E715BB3C4900A92F8C = {
 			isa = PBXGroup;
 			children = (
+				0E4E14D516DB8E1B00BA27C2 /* Default-568h@2x.png */,
 				0E1D172D15BB9B5A00A92F8C /* CoreImage.framework */,
 				0E1D172915BB5D4F00A92F8C /* camera57.png */,
 				0E1D172615BB5D4B00A92F8C /* camera114.png */,
@@ -144,7 +147,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = stampCamera;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 0E1D16EC15BB3C4900A92F8C /* Build configuration list for PBXProject "StampCamera" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -175,6 +178,7 @@
 				0E1D172A15BB5D4F00A92F8C /* camera57.png in Resources */,
 				0E1D172C15BB9A3100A92F8C /* megane.png in Resources */,
 				0E1D173215BBA02B00A92F8C /* megane2.png in Resources */,
+				0E4E14D616DB8E1B00BA27C2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +231,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -253,6 +261,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
